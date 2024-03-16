@@ -1,0 +1,53 @@
+{
+    "Actions": [
+      {
+        "Icon": "./libs/assets/check",
+        "Name": "actionName",
+        "States": [
+          {
+            "Image": "./libs/assets/check",
+            "TitleAlignment": "middle",
+            "FontSize": "16"
+          }
+        ],
+        "Controllers": ["Keypad", "Encoder"],
+        "DisableAutomaticStates": false,
+        "Encoder": {
+          "background": "backgroundImage",
+          "Icon": "StackAndLayoutImage",
+          "layout": "layoutName",
+          "StackColor": "#AABBCC",
+          "TriggerDescription": {
+            "Rotate": "Describe the rotation",
+            "Push": "Describe the encoder push",
+            "Touch": "Describe the touch",
+            "LongTouch": "Describe the long touch"
+          }
+        },
+        "SupportedInMultiActions": false,
+        "Tooltip": "Description of action",
+        "UUID": "tech.murrman.template.actionname"
+      }
+    ],
+    "SDKVersion": 2,
+    "Author": "Murrman Technologies LLC",
+    "CodePath": "./app.html",
+    "Description": "Sends commands to the Flat.io web app",
+    "Name": "Flat.io",
+    "Icon": "./libs/assets/check",
+    "URL": "https://www.murrman.tech/docs/flatio",
+    "Version": "0.0.1",
+    "OS": [
+      {
+        "Platform": "mac",
+        "MinimumVersion": "10.11"
+      },
+      {
+        "Platform": "windows",
+        "MinimumVersion": "10"
+      }
+    ],
+    "Software": {
+      "MinimumVersion": "6.4"
+    }
+  }

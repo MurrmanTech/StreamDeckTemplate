@@ -1,0 +1,16 @@
+{
+    "Description": "Plugin to control flat.io music notation web app",
+    "Name": "Flat.io App",
+    "Category": "Utility",
+    "tech.murrman.template.actionName": {
+        "Name": "Action Name",
+        "Tooltip": "Tooltip"
+    },
+    "Localization": {
+        "More info": "More info",
+        "Message": "Message",
+        "Click Me": "Click Me",
+        "Button": "Button",
+        "More": "More"
+    }
+}
